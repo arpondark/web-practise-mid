@@ -1,0 +1,171 @@
+html,
+body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    display: flex;
+    height: 100%;
+    margin: auto;
+}
+ul {
+    list-style: none;
+}
+.sidebar {
+    width: 20%;
+    background-color: #0d2136;
+    color: white;
+    padding: 15px;
+}
+.s1{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.sidebar h2 {
+    background-color: #234161;
+    padding: 20px 10px;
+}
+/* main starts*/
+.left{
+    width: 80%;
+    padding: 20px;
+}
+.flex{
+    display: flex;
+}
+.right{
+    margin-left: 400px;
+}
+input{
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 300px;
+   
+}
+.cards {
+    gap: 25px;
+}
+
+
+.card {
+    margin-left: 40px;
+    width: 320px;
+    height: 180px;
+    background: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+
+.card-header {
+    padding: 20px;
+    color: #fff;
+}
+
+.card-header h3 {
+    margin: 0 0 8px;
+    font-size: 17px;
+}
+
+.card-header p {
+    margin: 0;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+
+.g1 { background: linear-gradient(to right, #b73a2f, #7dff00); }
+.g2 { background: linear-gradient(to right, #e11d48, #d97706); }
+.g3 { background: linear-gradient(to right, #556b2f, #4b4f8c); }
+
+
+.card-body {
+    padding: 18px;
+}
+
+
+.bar {
+    height: 7px;
+    background: #e5e7eb;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 12px;
+}
+
+.fill {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.f1 { width: 75%; background: linear-gradient(to right, #14b8a6, #4ade80); }
+.f2 { width: 45%; background: linear-gradient(to right, #ec4899, #a855f7); }
+.f3 { width: 90%; background: linear-gradient(to right, #7c3aed, #2563eb); }
+
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #555;
+}
+/* ===== Upcoming section ===== */
+.ti {
+    margin: 30px 40px 15px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Schedule container */
+.schedule {
+    display: flex;
+    gap: 30px;
+    margin: 0 40px 40px;
+}
+
+/* Event cards */
+.event {
+    flex: 1;
+    padding: 30px;
+    color: white;
+    border-radius: 12px;
+}
+
+/* Gradients (same logic as 2521.css) */
+.orange {
+    background: linear-gradient(90deg, #a1abbb, #ff723b);
+}
+
+.cyan {
+    background: linear-gradient(90deg, #7b2ff7, #f107a3);
+}
+
+.purple {
+    background: linear-gradient(90deg, #0d9e19, #182597);
+}
+
+.time {
+    font-size: 12px;
+}
+
+.dec {
+    display: inline-block;
+    padding: 4px 12px;
+    font-size: 11px;
+    background: rgba(255, 255, 255, 0.85);
+    color: #000;
+    border-radius: 12px;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+

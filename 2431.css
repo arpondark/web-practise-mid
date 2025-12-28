@@ -12,13 +12,13 @@ body {
 header{
     box-shadow: gray 0px 5px 5px;
     padding: 10px 0;
+   
 }
 .container{
     max-width: 80vw;
     margin: auto;
-
-  
 }
+
 .flex{
     display: flex;
 }

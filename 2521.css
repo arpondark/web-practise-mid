@@ -12,7 +12,7 @@ body {
 
 .container {
     display: flex;
-    height: 100vh;
+    height: 100%;
     margin: auto;
 }
 .t1{
@@ -86,11 +86,11 @@ body {
 }
 
 .purple {
-    background: purple;
+    background: linear-gradient(90deg, #7b2ff7, #f107a3);
 }
 
 .cyan {
-    background: teal;
+    background: linear-gradient(90deg, #d30521, #854114);
 }
 .green {
     background: linear-gradient(130deg, #52ce0b, #a03c15);
