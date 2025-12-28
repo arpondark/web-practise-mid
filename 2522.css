@@ -1,4 +1,4 @@
-html,
+html,  /*sizebar*/
 body {
     height: 100%;
 }
@@ -56,7 +56,6 @@ button {
     width: 20%;
     background-color: #a0dcf8;
     padding: 20px;
-    height: 100vh;
 }
 
 ul li {
@@ -159,3 +158,13 @@ ul li {
     bottom: 0;
     width: 100%;
 }
+ <div class="container flex">
+        <aside class="sidebar">
+            <h2>Semister</h2>
+            <ul>
+                <li class="l1">Spring 2025</li>
+                <li class="l1">Fall 2024</li>
+                <li class="l1">Summer 2024</li>
+            </ul>
+        </aside>
+    </div>

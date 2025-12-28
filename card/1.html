@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Progress Card</title>
+
+    <style>
+        body {
+            background: #f3f4f6;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card {
+            width: 340px;
+            background: #ffffff;
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        /* Top gradient section */
+        .card-header {
+            padding: 22px;
+            color: white;
+            background: linear-gradient(to right, #b73a2f, #7dff00);
+        }
+        .card-header h3 {
+            margin: 0;
+            font-size: 18px;
+        }
+        .card-header p {
+            margin-top: 10px;
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        /* Bottom section */
+        .card-body {
+            padding: 18px 22px;
+        }
+        .progress-bar {
+            height: 6px;
+            background: #e5e7eb;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 14px;
+        }
+        .progress-fill {
+            width: 75%;
+            height: 100%;
+            background: linear-gradient(to right, #14b8a6, #4ade80);
+            border-radius: 10px;
+        }
+        .info {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+            color: #6b7280;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="card-header">
+            <h3>CSE 4165: Web Programming</h3>
+            <p>Prof. Rahman</p>
+        </div>
+
+        <div class="card-body">
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+
+            <div class="info">
+                <span>Progress: 75%</span>
+                <span>Grade: A</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
